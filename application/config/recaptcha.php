@@ -15,6 +15,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author Damar Riyadi <damar@tahutek.net>
  */
 
-$config['recaptcha_sitekey'] = "";
+$config['recaptcha_sitekeytest'] = "";
 $config['recaptcha_secretkey'] = "";
 $config['lang'] = "";
