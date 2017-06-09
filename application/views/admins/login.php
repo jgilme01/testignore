@@ -45,7 +45,8 @@
             </div>
             <button type="submit" class="btn btn-default" name="Submit">Submit</button>
         </form>
-        <a href="#">Forgot Password?</a><br>
+        
+        <a href="<?=base_url()?>admin/reset">Forgot Password?</a><br>
         
         <h2>Not A Member?</h2><br>
         <a href="<?=base_url()?>profiles/add">Register</a>
