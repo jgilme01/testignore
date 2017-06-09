@@ -104,8 +104,8 @@ class Venues_model extends CI_Model {
             'Outdoor' => $this->input->post('Outdoor'),
             'Wheelchair' => $this->input->post('Wheelchair'),
             'Parking' => $this->input->post('Parking'),
-            'VenuePostDate' =>$now, 
-            'VenueExpirationDate' => $this->input->post('VenueExpirationDate') 
+            //'VenuePostDate' =>$now, 
+            //'VenueExpirationDate' => $this->input->post('VenueExpirationDate') 
             
          );
         //$this->db-post('VenuePostDate', 'NOW()', FALSE);

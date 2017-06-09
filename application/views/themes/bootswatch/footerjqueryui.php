@@ -31,5 +31,14 @@ $(function() {
     );
 });
 </script>
+<script type="text/javascript">
+$(function() {
+    $("#VenueExpirationDate").datepicker(
+        {
+            dateFormat: 'yy-mm-dd'
+        }
+    );
+});
+</script>
   </body>
 </html>
