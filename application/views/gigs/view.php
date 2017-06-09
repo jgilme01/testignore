@@ -53,6 +53,10 @@
                     <?php echo $gig['EmploymentType']; ?>
                 </li>
                 <li>
+                    <b>Gig Close: </b>
+                    <?php echo $gig['GigCloseDate']; ?>
+                </li>
+                <li>
                     <b>Gig information: </b>
                     <?php echo $gig['GigOutline']; ?>
                 </li>
@@ -66,7 +70,7 @@
                 </li>
                 <li>
                     <b>Date Posted: </b>
-                    <?php echo date('Y-m-d H:i:s'); ?>
+                    <?php echo $gig['GigPosted']; ?>
                 </li>
             </ul>
         </div>
